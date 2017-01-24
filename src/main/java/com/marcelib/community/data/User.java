@@ -1,12 +1,14 @@
 package com.marcelib.community.data;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.Getter;
 
 import javax.persistence.*;
 
 
 @Getter
+@Data
 @AllArgsConstructor
 @Entity
 @Table(name = "user")
